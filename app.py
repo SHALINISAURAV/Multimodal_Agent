@@ -1,12 +1,21 @@
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+# Fix paths (important for Streamlit Cloud)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+sys.path.append(BASE_DIR)
+sys.path.append(os.path.join(BASE_DIR, "model "))  # ⚠️ space wala folder
+sys.path.append(os.path.join(BASE_DIR, "utils"))
 
 import streamlit as st
 from PIL import Image
-from model.blip import get_caption
-from model.llm import ask_llama
-from utils.prompt import build_prompt
+
+# Direct imports (no model. / utils.)
+from blip import get_caption
+from llm import ask_llama
+from prompt import build_prompt
+
 
 st.set_page_config(page_title="Multimodal AI Agent")
 
@@ -30,5 +39,6 @@ if st.button("Analyze"):
 
         st.subheader("💬 AI Response:")
         st.write(response)
+
     else:
         st.warning("Please provide both text and image!")
