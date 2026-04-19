@@ -141,7 +141,7 @@ multimodal-agent/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/Multimodal_Agent.git
+git clone https://github.com/SHALINISAURAV/Multimodal_Agent.git
 cd Multimodal_Agent
 
 # 2. Create virtual environment
@@ -193,7 +193,7 @@ For Streamlit Cloud deployment — add this in **Settings → Secrets** (not in 
 
 **Shalini Saurav**
 
-*AI Engineer · Data Scientist · Builder*
+*AI Developer · Builder*
 
 Building intelligent systems that understand the world — one model at a time.
 
