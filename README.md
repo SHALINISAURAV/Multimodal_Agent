@@ -7,7 +7,7 @@
         AI  AGENT             
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines= Sees+Images.+Understands+Text.+Thinks+Like+You.;Powered+by+BLIP+%2B+LLaMA+3.3;Built+by+Shalini+Saurav+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Sees+Images.+Understands+Text.+Thinks+Like+You.;Powered+by+BLIP+%2B+LLaMA+3.3;Built+by+Shalini+Saurav+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
